@@ -1,0 +1,66 @@
+.numbers,
+.newCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  width: 352px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  padding: 50px 15px 30px 15px;
+}
+.newCard {
+  padding: 0px 15px 30px 15px;
+  width: 340px;
+  text-align: start;
+}
+.numbersInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.invest {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  width: 289px;
+  border-radius: 10px;
+}
+.newCardChild {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.imgNew {
+  width: 370px;
+}
+@media (max-width: 700px) {
+  .numbers {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+  }
+  .invest {
+    width: 70%;
+    margin: auto;
+  }
+  .newCard {
+    width: 80%;
+    margin: auto;
+  }
+  .imgNew {
+  width: 110%;
+}
+}
+
+@media (min-width: 701px) and (max-width: 1000px) {
+  .numbers {
+    width: 350px;
+    padding: 50px 20px 30px 20px;
+  }
+}

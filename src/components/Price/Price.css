@@ -1,0 +1,36 @@
+.divPrice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+hr {
+    color: #E3E3E3;
+    background-color: #E3E3E3;
+    width: 100%;
+    background-color: transparent;
+}
+.gotov {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.gotovChild {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 8px ;
+}
+.priceImg, .priceWhat, .priceWhat2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.priceWhat, .priceWhat2 {
+    align-items: flex-start;
+}

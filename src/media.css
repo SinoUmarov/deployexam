@@ -1,0 +1,165 @@
+/*  PHONE */
+@media (max-width: 700px) {
+  header {
+    background-position: center;
+    background-color: rebeccapurple;
+    height: 720px;
+  }
+  .main {
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+  h1 {
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .main p {
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .analytic {
+    flex-direction: column-reverse;
+    gap: 25px;
+  }
+
+  .analytic2 {
+    flex-direction: column;
+    gap: 25px;
+  }
+  h2 {
+    text-align: center;
+  }
+  .divNumbers {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .group {
+    height: 604px;
+  }
+  .bazar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .left {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+  }
+  .divNumbers2 {
+    align-items: center;
+    justify-content: center;
+  }
+  .text {
+    text-align: center;
+    padding: 20px;
+  }
+  .bazar2 {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .text {
+    align-items: center;
+    color: white;
+  }
+  .Salom {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .images {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .form {
+    width: 80%;
+  }
+  .question {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/*  PLANSHEET  */
+@media (min-width: 701px) and (max-width: 1000px) {
+  .main {
+    width: 90%;
+    align-items: center;
+  }
+  header {
+    height: 700px;
+  }
+  h1 {
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .main p {
+    font-size: 26px;
+    line-height: 60px;
+    text-align: center;
+  }
+  .analytic {
+    flex-direction: column-reverse;
+  }
+  .analytic2 {
+    flex-direction: column;
+  }
+  h2 {
+    text-align: center;
+  }
+  .divNumbers {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .group {
+    height: 604px;
+  }
+  .bazar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .left {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+  }
+  .divNumbers2 {
+    align-items: center;
+    justify-content: center;
+  }
+  .text {
+    text-align: center;
+    padding: 20px;
+  }
+  .bazar2 {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .text {
+    align-items: center;
+    color: white;
+  }
+  .Salom {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .images {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .form {
+    width: 80%;
+  }
+  .question {
+    align-items: center;
+    text-align: center;
+  }
+}

@@ -1,0 +1,52 @@
+.service {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: flex-start;
+}
+.textBlue {
+  color: #1178b2;
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.lorem {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+@media (max-width: 700px) {
+  .service {
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  .instrument {
+    width: 90%;
+    margin: auto;
+  }
+  .lorem {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1000px) {
+  .service {
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  .instrument {
+    width: 80%;
+    margin: auto;
+  }
+  .lorem {
+    font-size: 18px;
+  }
+}
